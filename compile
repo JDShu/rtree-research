@@ -1,0 +1,1 @@
+ gcc rect.c node.c split_l.c card.c index.c sequoia.c -lm -o sequoia

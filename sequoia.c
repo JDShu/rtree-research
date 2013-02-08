@@ -51,5 +51,9 @@ int main() {
   }
 
   free(line);
+
+  //nhits = RTreeSearch(root, &search_rect, MySearchCallback, 0);
+
+  RTreePrintNode(root, 0);
   exit(EXIT_SUCCESS);
 }
